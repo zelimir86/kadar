@@ -1,0 +1,28 @@
+[Desktop Entry]
+Type=Application
+Name=Kadar
+GenericName=Screenshot tool
+Comment=Take and annotate screenshots (Wayland, fractional scaling)
+Exec=kadar launcher
+Icon=kadar
+Terminal=false
+Categories=Utility;Graphics;
+Keywords=screenshot;capture;snip;flameshot;
+StartupNotify=false
+Actions=gui;full;config;tray;
+
+[Desktop Action gui]
+Name=Take screenshot
+Exec=kadar gui
+
+[Desktop Action full]
+Name=Capture full screen to clipboard
+Exec=kadar full -c
+
+[Desktop Action config]
+Name=Settings
+Exec=kadar config
+
+[Desktop Action tray]
+Name=Start tray icon
+Exec=kadar tray
