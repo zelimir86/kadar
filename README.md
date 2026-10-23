@@ -63,7 +63,7 @@ All of these are installed by default on Linux Mint.
 ## Installation
 
 ```bash
-./install.sh
+git clone https://github.com/zelimir86/kadar.git && cd kadar && ./install.sh
 ```
 
 This links `~/.local/bin/kadar` to this checkout, so code changes apply
